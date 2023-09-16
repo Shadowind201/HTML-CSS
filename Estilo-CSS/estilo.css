@@ -1,0 +1,18 @@
+body{
+    background-color: blue;
+    color: blueviolet;
+}
+h1{
+    background-color: black;
+    color: violet;
+}
+h2{
+    background-color: yellow;
+    color: aqua;
+}
+strong{
+    font-size: 40px;
+    font-weight: 500; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
