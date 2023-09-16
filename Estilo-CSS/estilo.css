@@ -1,18 +1,28 @@
 body{
-    background-color: blue;
-    color: blueviolet;
+    background-color: #252B48;
+    color: #E4F1FF;
 }
 h1{
-    background-color: black;
-    color: violet;
+    background-color: #445069;
+    color: #F7E987;
 }
 h2{
-    background-color: yellow;
-    color: aqua;
+    background-color: #5B9A8B;
+    color: #252B48;
 }
 strong{
     font-size: 40px;
     font-weight: 500; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: black;
+    color: AED2FF;
+}
+a{
+    color: rgb(0, 0, 0);
+    font-size: smaller;
+    background-color: #5B9A8B;
+    padding: 5%;
+}
+a:hover{
+    color: #000000;
+    background-color: #F7E987;
 }
