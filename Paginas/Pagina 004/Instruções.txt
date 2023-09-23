@@ -1,0 +1,15 @@
+4) Crie uma página com o seguinte título: LISTA DE TAREFAS
+Nessa página deve conter uma lista com marcadores com os seguintes itens:
+- limpar a casa
+- ir no mercado
+- lavar a calçada
+- fazer a lição de português
+- alimentar o cachorro
+
+ 
+
+Ao final, inserir a foto de um cachorro.
+A formatação deve ser:
+- Fundo #887BB0
+- Cor do título #85D2D0
+- Cor dos itens da lista #F4B9B8

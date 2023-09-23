@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(70, 33, 105);
+    color: black;
+}
+h1{
+    color: rgb(255, 0, 212);
+    font-size: 22px; 
+}
+h2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+img{
+    border-radius: 8px;
+    width: 200px;
+}

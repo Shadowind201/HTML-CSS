@@ -1,0 +1,21 @@
+2) Criar uma página com as seguintes especificações:
+- titulo: Eu amo tudo o que foi
+- subtítulo: Fernando Pessoa
+- parágrafo:
+Eu amo tudo o que foi,
+Tudo o que já não é,
+A dor que já me não dói,
+A antiga e errônea fé,
+O ontem que dor deixou,
+O que deixou alegria
+Só porque foi, e voou
+E hoje é já outro dia.
+- inserir ao final da poesia uma imagem de um relógio
+- Fundo preto
+- Cor do título roxo
+- Cor do parágrafo Branco
+- tamanho do título 26px
+- tamanho do parágrafo 18px
+- cor do subtitulo rosa
+- tamanho do subtitulo 22px
+ 

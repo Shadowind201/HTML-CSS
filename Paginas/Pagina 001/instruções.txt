@@ -1,0 +1,16 @@
+1) Criar uma página com as seguintes especificações:
+- Título: Não discuto
+- subtítulo: Paulo Leminski
+- Parágrafo:
+não discuto
+com o destino
+o que pintar
+eu assino
+- inserir ao final da poesia uma imagem de uma pintura
+- Fundo roxo
+- Cor do título Rosa
+- Cor do parágrafo Branco
+- tamanho do título 22px
+- tamanho do parágrafo 16px
+- cor do subtitulo Branco
+- tamanho do subtitulo 18px

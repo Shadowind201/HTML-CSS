@@ -1,0 +1,19 @@
+body{
+    background-color: #D8A7B1;
+}
+h1{
+    color: #B6E2D3;
+    font-size: 32px;
+}
+h2{
+    color:  #EF7C8E;
+    font-size: 26px;
+}
+p{
+    color: #FAE8E0;
+    font-size: 18px;
+}
+img{
+    border-radius: 8px;
+    width: 400px;
+}

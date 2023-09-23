@@ -1,0 +1,18 @@
+3. Criar uma página com as seguintes especificações:
+- titulo: O desafio
+- subtítulo: Augusto Branco
+- parágrafo: 
+Minha energia é o desafio,
+minha motivação é o impossível,
+e é por isso que eu preciso
+ser, à força e a esmo, inabalável.
+
+
+- inserir ao final da poesia uma imagem de uma pessoa se exercitando
+- Fundo #D8A7B1
+- Cor do título #B6E2D3
+- Cor do parágrafo #FAE8E0
+- tamanho do título 32px
+- tamanho do parágrafo 18px
+- cor do subtitulo #EF7C8E
+- tamanho do subtitulo 26px

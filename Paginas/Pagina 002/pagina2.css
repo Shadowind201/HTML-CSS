@@ -1,0 +1,20 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+h1{
+    color: rgb(92, 44, 138);
+    font-size: 26px;
+}
+h2{
+    color: rgb(255, 0, 200);
+    font-size: 22px;
+}
+p{
+    color: aliceblue;
+    font-size: 18px
+}
+img{
+    border-radius: 8px;
+    width: 400px;
+}

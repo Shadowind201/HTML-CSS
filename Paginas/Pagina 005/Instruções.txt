@@ -1,0 +1,15 @@
+5) Crie uma página com o seguinte título: AULAS DA SEMANA
+Nessa página deve conter uma lista com marcadores com os seguintes itens:
+- SEGUNDA: PORTUGÊS
+- TERÇA: MATEMÁTICA
+- QUARTA: GEOGRAFIA/HISTÓRIA
+- QUINTA: INGLÊS
+- SEXTA: QÍMICA/FÍSICA/BIOLOGIA
+
+ 
+
+Ao final, inserir uma foto com livros.
+A formatação deve ser:
+- Fundo #29A0B1
+- Cor do título #98D7C2
+- Cor doS itens da lista #DDFFE7
