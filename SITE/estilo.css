@@ -17,17 +17,20 @@ h1 {
 
 }
 h3 {
-    color: #A5A692;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    background-color: #F2A71B;
+    width: 90px;
 }
 a {
     font-size: smaller;
     background-color: #025E73;
-    padding: 5%;
+    padding: 1%;
 }
 a:hover{
     color: #000000;
     background-color: #F2A71B;
+
 }
 
 
-gwg
