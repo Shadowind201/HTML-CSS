@@ -1,0 +1,66 @@
+Unidades de medidas no CSS
+
+Cm(centímetro)
+Por mais que essa medida seja muito conhecida em países que utilizam o sistema métrico, como o do Brasil, 
+o centímetro é uma unidade de medida muito mais utilizada no mundo real do que no desenvolvimento front-end, 
+o uso dessa medida é inviável para se definir o tamanho de um texto ou título, pois 1cm pode ser muito grande 
+para a tela de um celular.
+
+Pt(ponto) ou Pc(paica)
+Essas duas unidades de medidas são bem antigas, usadas para padronização do tamanho das fontes impressas em papel. 
+Apesar de pouco utilizadas na criação de sites, elas são opções de unidades de medidas no CSS.
+
+1pt é equivalente a 1.66 pixels
+1pc é equivalente a 12 pontos.
+
+In(polegadas)
+A polegada leva essa nomenclatura de in por vir da palavra em inglês inches, que significa polegada. 
+É uma medida usada nos EUA para medir objetos e distância. Ela também existe no CSS, porém como nos exemplos 
+anteriores, é pouco utilizada.
+
+Unidades de medidas relativas.
+As medidas relativas, por outro lado, praticamente dominam as declarações de unidades de medidas no CSS, 
+pois como o nome já diz essas medidas têm um comportamento diferente dependendo de algum fator previamente 
+definido e também tem fácil adaptação a diferentes tamanhos de tela. Vamos ver alguns exemplos.
+
+Rem
+O rem é uma das unidades de medida mais usadas no desenvolvimento front-end, porém nem todos entendem como 
+essa medida funciona. Então, vamos entendê-la, 1rem é igual ao tamanho padrão da fonte da raiz(root) do documento, 
+normalmente 16px, logo 1rem é igual à 16px.
+
+Se alterarmos a medida da fonte na raiz(root), alteramos o tamanho do rem, isso acontece com dispositivos de tamanho 
+menores e maiores, pois 1px em um celular, por exemplo, é menor que 1px de uma televisão. Dessa forma nosso texto se 
+torna mais adaptável a vários tamanhos de telas.
+
+Em
+Essa medida se comporta semelhante ao rem, a diferença dela é que 1em se baseia no tamanho do elemento pai de um 
+parágrafo. 
+
+Baseado na explicação acima, quantos px o parágrafo da classe texto terá? Exatamente, 200px. Pois, 
+o elemento pai desse texto está definido previamente como 100px, logo, nesse caso, 1em terá 100px.
+
+Vw e Vh
+Para entender essas duas vamos ver primeiramente os seus significados. Vw, por exemplo, V = view, ou seja,
+ a tela do seu navegador, e W = width, largura, portanto 100vw é 100%, em outras palavras, toda a largura 
+visível do navegador. Seguindo a ideia o Vh é V = view, H = height que significa altura, então 100vh é toda 
+altura visível do seu navegador. Portanto, por ser uma medida relativa, ela depende da altura(vh) ou largura(vw) 
+visível do navegador para definir uma medida.
+
+Porcentagem (%)
+Essa unidade de medida é um dos tipos mais utilizados, quando trabalhamos com CSS. Isso porque, ela se adapta aos 
+diferentes tamanhos de tela. O uso dessa unidade é feito da seguinte forma: quando declaramos que um elemento terá 
+100% de largura, estamos dizendo que esse mesmo elemento, tem a largura total do elemento que o envolve. Vamos ver 
+um exemplo para ficar mais claro.
+
+Nesse caso, se o container tive uma largura de, por exemplo, 500px, e, nosso bloco estiver com 100% de largura, o 
+nosso bloco nesse caso terá 500px de largura. Logo, medidas definidas em porcentagem(%), são baseadas na largura do 
+elemento que a envolve.
+
+
+
+
+
+
+
+
+
