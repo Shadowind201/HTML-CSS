@@ -1,19 +1,16 @@
-.botao1 {
-    border: 20px solid #ac1a1a;
-    height: 70px;
-    padding: 30px 15px;
-    width: 50px;
+* { box-sizing: border-box;
 }
-.botao2 {
-    border: 1px solid ;
+
+.botao1 {
+    border: 2px solid #ac1a1a;
     height: 26px;
     padding: 5px 15px;
     width: 90px;
 }
-.botao3 {
-    border: 1px solid;
+.botao2 {
+    border: 2px solid #ac1a1a;
     height: 26px;
-    padding: 5px 15px;
+    padding: 5px 15px ;
     width: 90px;
 }
 .caixa {
@@ -24,4 +21,11 @@
     background-color: aqua;
     padding: 0 25px;
     width: 250;
+}
+.faixa {
+    border: #1aac46;
+    height: 100px;
+    margin: 40px;
+    width: ;
+
 }
