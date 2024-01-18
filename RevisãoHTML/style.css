@@ -26,6 +26,9 @@
     border: #1aac46;
     height: 100px;
     margin: 40px;
-    width: ;
-
+    width: 400px;
+}
+.faixa1 {
+    font-size: 1.2em;
+    text-align: center;
 }
