@@ -9,7 +9,7 @@
 }
 
 body {
-  background-image: url("../img/fundo.jpg");
+  background-image: url("fundo.jpg");
   padding: 100%;
   font-family: "Montserrat";
   margin: 0;
@@ -128,6 +128,7 @@ hr {
 .image {
   margin-right: 15px;
   margin-bottom: 20px;
+  
 }
 .coluna-galeria {
   padding-left: 30px;
