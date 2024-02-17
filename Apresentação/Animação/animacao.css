@@ -9,7 +9,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh; /*V = view, H = height que significa altura*/
-    background: #000;
+    background: #000; 
 }
 a {
     position: relative;
@@ -18,18 +18,18 @@ a {
     letter-spacing: .1em; /*espassamento entre letras*/
     color: rgb(140, 0, 255);
     text-decoration: none; /*remove estilos no texto*/
-    text-transform: uppercase;
-    border: 2px solid rgb(140, 0, 255);
-    padding: 10px 30px;
-    z-index: 1;
+    text-transform: uppercase; /*deixa o texto maiusculo*/
+    border: 2px solid rgb(140, 0, 255); /*borda*/
+    padding: 10px 30px; /*espassamento da borda*/
+    z-index: 1; /*altera a ordem dos itens*/
     overflow: hidden; /*overflow muda o objeto  define o comportamento de um elemento quando suas dimensões são excedidas pelo conteúdo e hidden esconde a parte de um elemento para que ele não passe do tamanho determinado*/
-    transition: color 1s, box-shadow 1s; /*tempo do "efeito"*/
+    transition: color  1s, box-shadow 1s; /*tempo do "efeito"*/
 }
-a:hover { /*:hover faz o elemento mudar quando o cursor passa sobre ele*/
+a:hover { /*faz o elemento mudar quando o cursor passa sobre ele*/
     transition-delay: 0s/*texto*/, 1s/*luz*/;
     color: #fff;
     box-shadow: /*tamanho da luz*/
-        0 0 10px rgb(140, 0, 255), /*estagios*/
+        0 0 10px rgb(140, 0, 255), /*estagios da luz*/
         0 0 20px rgb(140, 0, 255),
         0 0 40px rgb(140, 0, 255),
         0 0 80px rgb(140, 0, 255),
@@ -44,8 +44,8 @@ a::before { /*adiciona conteudo decorativo*/
     height: 100%;
     background: rgb(140, 0, 255);
     transform: skewX(35deg); /*inclinação*/
-    z-index: -1; /*deixa a faixa atras do texto*/
-    transition: 1s;
+    z-index: -1; /*altera a ordem dos itens*/
+    transition: 1s; 
 }
 a:hover:before {
     width: 100%;

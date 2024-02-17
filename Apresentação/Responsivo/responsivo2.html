@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explicação- @Media Query</title>
+</head>
+<body>
+
+    <style>
+        /*define a cor inicial da tela de notebooks e PCs, por isso não colocamos media query, mas se quiser pode colocar*/
+    body{
+        background: green;
+    }
+    /*Aqui nos estamos falando que quando chegar em 768px a tela vai mudar para blue,é o padrão de tablets*/
+    @media screen and (max-width: 768px){
+        body{
+            background-color: blue;
+        }
+    }
+    /*Aqui nos estamos falando que quando chegar em 600px a tela vai mudar para red, que é o padrão de celulares*/
+    @media screen and (max-width: 450px){
+        body{
+            background-color: red;
+        }
+    }
+
+
+
+
+    
+    /*voce pode alterar em uma @media para corrigir os bugs de seu site responsivo, para melhorar os posicionamentos.*/
+
+
+
+
+ /*   @media (min-width: 768px) and (max-width: 1024px)
+  estamos falando para o css que entre essas medidas serao aplicadas as alteraçoes dessa media query, nome disso é range ou intervalo de larguras, esse tipo de media query é usado para estilizar um tipo espesifico de dispositivo como no caso os tablets     */
+
+ 
+/*Orientação horizontal
+@media (orientation: landscape)
+essa orientation so vai ser respeitada quando a largura for maior que a altura,
+ela é para estilizar dispositivos celulares, para aqueles que gostam de usar sites na horizontal, sempre tem um desses.
+*/
+
+
+
+
+/*(combina mais uma condição)
+                 ^
+                 |
+(tipo de midia)  |          > (verificando a largura da tela)
+            ^    |         |
+            |    |         |
+ @media screen and (max-width: 768px) */
+
+
+</style>
+
+</body>
+</html>
