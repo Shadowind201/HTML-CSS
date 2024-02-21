@@ -1,7 +1,15 @@
 
 
 
+body{
+    color: white;
+    background: linear-gradient(rgb(0, 0, 0), rgb(17, 0, 255));
+}
 
+header{
+    background-color: black;
+    padding: 20px;
+}
 
 .conteiner{
     margin: 0 auto;
@@ -12,23 +20,37 @@
     text-decoration: none;
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 img{
-    width: 70%;
+    width: 300px;
     border: nome;
     border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 30px; 
+    margin-right: 10px;
 }
 
 a{
-    transition: width 1s;
+    text-decoration: none;
+    transition: transform 1s;
+    color: white;
+    text-align: center;
+    z-index: 0;
 }
 
 a:hover{
-    width: 80%;
-    transition-delay: 1s;
+    transform: scale(1.1);
+    width: 400px;
 }
 
 a::before{
     transition: 1s; 
+    width: 300px;
 }
+
+footer{
+    background-color: black;
+    padding: 20px;
+}
+
+
