@@ -1,13 +1,15 @@
-
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 
 body{
+    font-family: open sans;
     color: white;
-    background: linear-gradient(rgb(0, 0, 0), rgb(17, 0, 255));
+    background: linear-gradient(rgb(132, 0, 255), rgb(255, 231, 14));
+	text-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
 }
 
 header{
-    background-color: black;
+    background: radial-gradient(circle at 10% , #F8CA00, #a200ff);
     padding: 20px;
 }
 
@@ -28,6 +30,8 @@ img{
     margin-top: 20px;
     margin-left: 30px; 
     margin-right: 10px;
+
+    box-shadow: 5px 5px 4px rgba(0,0,0,.4);
 }
 
 a{
@@ -35,7 +39,6 @@ a{
     transition: transform 1s;
     color: white;
     text-align: center;
-    z-index: 0;
 }
 
 a:hover{
