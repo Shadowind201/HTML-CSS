@@ -1,3 +1,10 @@
+https://www.html5pattern.com/
+
+https://philipwalton.github.io/solved-by-flexbox/
+
+
+
+
 Unidades de medidas no CSS
 
 Cm(centímetro)
